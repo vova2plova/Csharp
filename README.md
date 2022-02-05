@@ -5,4 +5,4 @@ Training
 <h2>Запуск</h2>
 <span>dotnet run</span>
 <h2>Входные данные</h2>
-<image scr="Images/ex00_00"/>
+<image scr="Images/ex00_00.png"/>

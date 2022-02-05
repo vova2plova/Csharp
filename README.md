@@ -11,7 +11,7 @@ Training
 </br>
 <span>Вывод</span></br>
 <image src="https://github.com/vova2plova/Csharp/blob/main/Images/ex00_01.png?raw=true"/></br>
-<h1>Данные для теста №2</h1></br></br>
+<h1>Данные для теста №1</span></br></br>
 <span>55000 10 20</span></br>
 </br>
 <span>Вывод</span></br>

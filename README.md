@@ -5,4 +5,4 @@ Training
 <h2>Запуск</h2>
 <span>dotnet run</span>
 <h2>Входные данные</h2>
-![Image alt](https://github.com/vova2plova/Csharp/raw/main/Images/ex00_00.png)
+<image scr="https://raw.githubusercontent.com/vova2plova/Csharp/main/Images/ex00_00.png"/>

@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace d01_ex00
+namespace d01_ex00.Models
 {
-    internal class Storage
+    public class Storage
     {
-        private int _countProduct;
+        public int CountProduct { get; set; }
 
         public Storage(int countProduct)
         {
-            _countProduct = countProduct;
+            CountProduct = countProduct;
         }
 
-        public bool IsEmpty() => _countProduct == 0;
+        public bool IsEmpty => CountProduct == 0;
     }
 }

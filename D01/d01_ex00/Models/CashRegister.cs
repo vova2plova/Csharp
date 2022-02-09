@@ -4,27 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace d01_ex00
+namespace d01_ex00.Models
 {
-    internal class CashRegister
+    public class CashRegister
     {
-        private string _tittle;
-        public Queue<Customer> CustomersQueue { get; private set; };
+        public string Tittle { get; private set ;}
+        public Queue<Customer> CustomersQueue { get; private set; }
 
-        public CashRegister(string tittle)
+        public CashRegister(int tittle)
         {
             CustomersQueue = new Queue<Customer>();
-            _tittle = tittle;
+            Tittle = $"Касса номер = {tittle}";
         }
 
         public static bool operator ==(CashRegister c1, CashRegister c2)
         {
-            return (c1._tittle == c2._tittle);
+            return (c1.Tittle == c2.Tittle);
         }
 
         public static bool operator !=(CashRegister c1, CashRegister c2)
         {
             return !(c1 == c2);
         }
+
     }
 }

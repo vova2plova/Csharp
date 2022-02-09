@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace d01_ex00
+namespace d01_ex00.Models
 {
-    class Customer
+    public class Customer
     {
         public string Name { get;private set; }
         public int Id { get;private set; }
